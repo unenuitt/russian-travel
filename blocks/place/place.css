@@ -1,0 +1,7 @@
+.place {
+    padding: 0 148px 80px;
+}
+
+.place:last-child {
+    padding: 0 148px 92px;
+}
