@@ -3,3 +3,7 @@
     flex-wrap: wrap;
     list-style-type: none;
 }
+
+.header__list .header__item:last-child .header__lang-link {
+    text-decoration: none;
+}

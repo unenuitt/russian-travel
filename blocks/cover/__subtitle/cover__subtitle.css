@@ -1,13 +1,9 @@
-.place__link {
-    margin: 0;
+.cover__subtitle {
+    max-width: 360px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-decoration-line: underline;
     color: #FFFFFF;
-}
-
-.place__link:hover {
-    opacity: 0.8;
+    text-align: center;
 }

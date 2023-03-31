@@ -1,0 +1,15 @@
+.cover {
+    background-image: url(../../images/__background.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 48px;
+}
+
+.cover::after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: -1px;
+    padding-top: calc(740 / 1184 * 100%);
+}

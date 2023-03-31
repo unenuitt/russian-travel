@@ -1,6 +1,6 @@
 .page {
     width: 1280px;
-    height: 6875px;
+    min-height: 6875px;
     background-color: #2A2C2F;
     margin: 0 auto;
 }
