@@ -1,4 +1,5 @@
-.footer__info {
-    display: flex;
-    position: relative;
+@media (max-width: 425px) {
+  .footer__info {
+    margin-bottom: 48px;
+  }
 }
