@@ -8,19 +8,11 @@
   text-align: center;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__title {
-    max-width: 100%;
-    font-size: 96px;
-    line-height: 100px;
-  }
-}
-
-@media (max-width: 425px) {
-  .lead__title {
-    margin: 0 auto 16px;
-    max-width: 288px;
+    max-width: 90%;
     font-size: 40px;
     line-height: 44px;
+    margin: 0 auto 16px;
   }
 }

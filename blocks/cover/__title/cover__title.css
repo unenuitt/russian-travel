@@ -8,14 +8,7 @@
   text-align: center;
 }
 
-@media (min-width: 426px) and (max-width: 560px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-
-@media (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .cover__title {
     max-width: 75%;
     margin: 0 0 16px 0;

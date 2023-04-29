@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
     margin: 0 0 0 24px;
     max-width: 100%;
@@ -18,6 +18,5 @@
 @media (max-width: 425px) {
   .lead__caption {
     margin: 0 0 0 16px;
-    max-width: 100%;
   }
 }
