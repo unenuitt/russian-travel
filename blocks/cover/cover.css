@@ -1,19 +1,10 @@
 .cover {
     background-image: url(../../images/__background.jpg);
-    display: flex;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto 92px;
     max-width: 1184px;
-}
-
-.cover::after {
-    content: "";
-    width: 0;
-    height: 0;
-    margin-left: 1px;
-    padding-top: calc(740 / 1184 * 100%);
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
